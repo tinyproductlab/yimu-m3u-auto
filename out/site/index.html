@@ -16,29 +16,46 @@ h1{font-size:26px;margin:0 0 8px}
 code{flex:1;background:#0f1115;border:1px solid #232833;border-radius:8px;padding:9px 10px;font-size:13px;overflow-x:auto;white-space:nowrap}
 button{background:#d93025;color:#fff;border:0;border-radius:8px;padding:0 18px;font-size:14px;cursor:pointer}
 button.ok{background:#188038}
+button.mini{background:transparent;border:1px solid #3a4152;color:#9aa0a6;border-radius:6px;padding:2px 10px;font-size:12px;margin-left:10px;vertical-align:2px}
+button.mini.ok{background:#188038;color:#fff;border-color:#188038}
+.ptitle{font-size:18px;margin:28px 0 12px}
+.prods{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.prods a{background:#171a21;border:1px solid #232833;border-radius:10px;padding:12px 14px;color:#e8eaed;text-decoration:none;font-size:15px}
+.prods a i{display:block;font-style:normal;color:#9aa0a6;font-size:12px;margin-top:3px}
 .note{color:#9aa0a6;font-size:13px;line-height:1.8;margin-top:24px}
 a{color:#8ab4f8}
 </style></head><body><div class="wrap">
 <h1>一幕播单</h1>
 <p class="sub">这里是自动维护的公开免费直播频道订阅地址。复制任意一条，粘贴到你的播放器订阅里就能看，地址长期不变，上游拉取失败时沿用已有缓存。</p>
 <div class="stats">当前共 <b>466</b> 个频道 · 最近更新 2026-11-07 11:04:38 UTC · 每 6 小时尝试更新 · 播放可用性以播放器为准</div>
-<div class="card"><div class="meta"><div class="name">全量合集（央视/卫视/地方/体育/少儿…）</div><div class="cnt">466 个频道 · 文件 all.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/all.m3u</code><button data-copy="https://m3u.tinyplab.com/all.m3u">复制</button></div></div>
-<div class="card"><div class="meta"><div class="name">央视＋卫视</div><div class="cnt">135 个频道 · 文件 cctv.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/cctv.m3u</code><button data-copy="https://m3u.tinyplab.com/cctv.m3u">复制</button></div></div>
-<div class="card"><div class="meta"><div class="name">体育</div><div class="cnt">12 个频道 · 文件 sports.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/sports.m3u</code><button data-copy="https://m3u.tinyplab.com/sports.m3u">复制</button></div></div>
-<div class="card"><div class="meta"><div class="name">少儿卡通</div><div class="cnt">11 个频道 · 文件 kids.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/kids.m3u</code><button data-copy="https://m3u.tinyplab.com/kids.m3u">复制</button></div></div>
-<div class="card"><div class="meta"><div class="name">电影</div><div class="cnt">20 个频道 · 文件 movies.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/movies.m3u</code><button data-copy="https://m3u.tinyplab.com/movies.m3u">复制</button></div></div>
-<div class="card"><div class="meta"><div class="name">EPG 节目单</div><div class="cnt">54 个频道 · 11350 条节目</div></div><div class="row"><code>https://m3u.tinyplab.com/epg.xml</code><button data-copy="https://m3u.tinyplab.com/epg.xml">复制</button></div></div>
+<div class="card"><div class="meta"><div class="name">全量合集（央视/卫视/地方/体育/少儿…）<button class="mini copy-name" data-copy="一幕播单·全量">复制名字</button></div><div class="cnt">466 个频道 · 文件 all.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/all.m3u</code><button data-copy="https://m3u.tinyplab.com/all.m3u">复制地址</button></div></div>
+<div class="card"><div class="meta"><div class="name">央视＋卫视<button class="mini copy-name" data-copy="一幕播单·央视卫视">复制名字</button></div><div class="cnt">135 个频道 · 文件 cctv.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/cctv.m3u</code><button data-copy="https://m3u.tinyplab.com/cctv.m3u">复制地址</button></div></div>
+<div class="card"><div class="meta"><div class="name">体育<button class="mini copy-name" data-copy="一幕播单·体育">复制名字</button></div><div class="cnt">12 个频道 · 文件 sports.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/sports.m3u</code><button data-copy="https://m3u.tinyplab.com/sports.m3u">复制地址</button></div></div>
+<div class="card"><div class="meta"><div class="name">少儿卡通<button class="mini copy-name" data-copy="一幕播单·少儿">复制名字</button></div><div class="cnt">11 个频道 · 文件 kids.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/kids.m3u</code><button data-copy="https://m3u.tinyplab.com/kids.m3u">复制地址</button></div></div>
+<div class="card"><div class="meta"><div class="name">电影<button class="mini copy-name" data-copy="一幕播单·电影">复制名字</button></div><div class="cnt">20 个频道 · 文件 movies.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/movies.m3u</code><button data-copy="https://m3u.tinyplab.com/movies.m3u">复制地址</button></div></div>
+<div class="card"><div class="meta"><div class="name">EPG 节目单<button class="mini copy-name" data-copy="一幕播单·节目单">复制名字</button></div><div class="cnt">54 个频道 · 11350 条节目</div></div><div class="row"><code>https://m3u.tinyplab.com/epg.xml</code><button data-copy="https://m3u.tinyplab.com/epg.xml">复制地址</button></div></div>
+<h2 class="ptitle">小产品实验室的其他产品</h2>
+<div class="prods">
+<a href="https://tinylabpro.com/tools/" target="_blank" rel="noopener">选字转二维码插件<i>选中文字右键生成二维码</i></a>
+<a href="https://renguanwang.com" target="_blank" rel="noopener">认官网<i>认准官网，访问不迷路</i></a>
+<a href="https://keyscan.tinylabpro.com/" target="_blank" rel="noopener">KeyScan<i>本地密码管理与验证器</i></a>
+<a href="https://nconvo.tinylabpro.com" target="_blank" rel="noopener">NConvo<i>隐私网络工具箱</i></a>
+<a href="https://catbox.gugujoy.com" target="_blank" rel="noopener">猫猫纸箱<i>600 关猫咪解谜小游戏</i></a>
+<a href="https://tinylabpro.com" target="_blank" rel="noopener">全部产品<i>小产品实验室主站</i></a>
+</div>
 <p class="note">使用方法：在播放器里找到「订阅 / 播放列表 / M3U」入口，新建订阅，把上面的地址粘贴进去即可。适用于任何支持 M3U 的播放器（一幕 YiMu、VLC、TiviMate 等）。<br>
 本站只收录互联网上公开免费的频道流并标注来源聚合，版权归各频道方所有；如有侵权请通过公众号「小产品实验室」联系删除。<br>
 由小产品实验室维护。</p>
 </div>
 <script>
 document.querySelectorAll("button[data-copy]").forEach(function(b){
-  var file=b.getAttribute("data-copy").split("/").pop();
-  var url=new URL(file, window.location.href).href;
-  if (window.location.protocol === "https:") {
-    b.setAttribute("data-copy", url);
-    b.previousElementSibling.textContent=url;
+  if (!b.classList.contains("copy-name")) {
+    var file=b.getAttribute("data-copy").split("/").pop();
+    var url=new URL(file, window.location.href).href;
+    if (window.location.protocol === "https:") {
+      b.setAttribute("data-copy", url);
+      b.previousElementSibling.textContent=url;
+    }
   }
   b.addEventListener("click", function(){
     navigator.clipboard.writeText(b.getAttribute("data-copy")).then(function(){

@@ -59,22 +59,33 @@ def main():
     ]
     lists = []
     n_all = write_list("all.m3u", entries, has_epg)
-    lists.append(("all.m3u", "全量合集（央视/卫视/地方/体育/少儿…）", n_all))
+    lists.append(("all.m3u", "全量合集（央视/卫视/地方/体育/少儿…）", "一幕播单·全量", n_all))
+    short_names = {"cctv.m3u": "一幕播单·央视卫视", "sports.m3u": "一幕播单·体育", "kids.m3u": "一幕播单·少儿", "movies.m3u": "一幕播单·电影"}
     for fn, label, rule in rules:
         sub = [e for e in entries if rule(e)]
         n = write_list(fn, sub, has_epg)
-        lists.append((fn, label, n))
+        lists.append((fn, label, short_names.get(fn, label), n))
         print(f"{fn}: {n}")
 
     cards = "\n".join(
-        f'''<div class="card"><div class="meta"><div class="name">{label}</div><div class="cnt">{n} 个频道 · 文件 {fn}</div></div><div class="row"><code>{DOMAIN}/{fn}</code><button data-copy="{DOMAIN}/{fn}">复制</button></div></div>'''
-        for fn, label, n in lists
+        f'''<div class="card"><div class="meta"><div class="name">{label}<button class="mini copy-name" data-copy="{short}">复制名字</button></div><div class="cnt">{n} 个频道 · 文件 {fn}</div></div><div class="row"><code>{DOMAIN}/{fn}</code><button data-copy="{DOMAIN}/{fn}">复制地址</button></div></div>'''
+        for fn, label, short, n in lists
     )
     epg_card = ""
     if has_epg:
-        epg_card = f'''<div class="card"><div class="meta"><div class="name">EPG 节目单</div><div class="cnt">{report["epg"]["channels"]} 个频道 · {report["epg"]["programmes"]} 条节目</div></div><div class="row"><code>{DOMAIN}/epg.xml</code><button data-copy="{DOMAIN}/epg.xml">复制</button></div></div>'''
+        epg_card = f'''<div class="card"><div class="meta"><div class="name">EPG 节目单<button class="mini copy-name" data-copy="一幕播单·节目单">复制名字</button></div><div class="cnt">{report["epg"]["channels"]} 个频道 · {report["epg"]["programmes"]} 条节目</div></div><div class="row"><code>{DOMAIN}/epg.xml</code><button data-copy="{DOMAIN}/epg.xml">复制地址</button></div></div>'''
     else:
         epg_card = '''<div class="card dim"><div class="meta"><div class="name">EPG 节目单</div><div class="cnt">节目单源完善中，稍后上线</div></div></div>'''
+
+    products = '''<h2 class="ptitle">小产品实验室的其他产品</h2>
+<div class="prods">
+<a href="https://tinylabpro.com/tools/" target="_blank" rel="noopener">选字转二维码插件<i>选中文字右键生成二维码</i></a>
+<a href="https://renguanwang.com" target="_blank" rel="noopener">认官网<i>认准官网，访问不迷路</i></a>
+<a href="https://keyscan.tinylabpro.com/" target="_blank" rel="noopener">KeyScan<i>本地密码管理与验证器</i></a>
+<a href="https://nconvo.tinylabpro.com" target="_blank" rel="noopener">NConvo<i>隐私网络工具箱</i></a>
+<a href="https://catbox.gugujoy.com" target="_blank" rel="noopener">猫猫纸箱<i>600 关猫咪解谜小游戏</i></a>
+<a href="https://tinylabpro.com" target="_blank" rel="noopener">全部产品<i>小产品实验室主站</i></a>
+</div>'''
 
     html = f'''<!DOCTYPE html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -94,6 +105,12 @@ h1{{font-size:26px;margin:0 0 8px}}
 code{{flex:1;background:#0f1115;border:1px solid #232833;border-radius:8px;padding:9px 10px;font-size:13px;overflow-x:auto;white-space:nowrap}}
 button{{background:#d93025;color:#fff;border:0;border-radius:8px;padding:0 18px;font-size:14px;cursor:pointer}}
 button.ok{{background:#188038}}
+button.mini{{background:transparent;border:1px solid #3a4152;color:#9aa0a6;border-radius:6px;padding:2px 10px;font-size:12px;margin-left:10px;vertical-align:2px}}
+button.mini.ok{{background:#188038;color:#fff;border-color:#188038}}
+.ptitle{{font-size:18px;margin:28px 0 12px}}
+.prods{{display:grid;grid-template-columns:1fr 1fr;gap:10px}}
+.prods a{{background:#171a21;border:1px solid #232833;border-radius:10px;padding:12px 14px;color:#e8eaed;text-decoration:none;font-size:15px}}
+.prods a i{{display:block;font-style:normal;color:#9aa0a6;font-size:12px;margin-top:3px}}
 .note{{color:#9aa0a6;font-size:13px;line-height:1.8;margin-top:24px}}
 a{{color:#8ab4f8}}
 </style></head><body><div class="wrap">
@@ -102,17 +119,20 @@ a{{color:#8ab4f8}}
 <div class="stats">当前共 <b>{n_all}</b> 个频道 · 最近更新 {report.get("generated_at","")} · 每 6 小时尝试更新 · 播放可用性以播放器为准</div>
 {cards}
 {epg_card}
+{products}
 <p class="note">使用方法：在播放器里找到「订阅 / 播放列表 / M3U」入口，新建订阅，把上面的地址粘贴进去即可。适用于任何支持 M3U 的播放器（一幕 YiMu、VLC、TiviMate 等）。<br>
 本站只收录互联网上公开免费的频道流并标注来源聚合，版权归各频道方所有；如有侵权请通过公众号「小产品实验室」联系删除。<br>
 由小产品实验室维护。</p>
 </div>
 <script>
 document.querySelectorAll("button[data-copy]").forEach(function(b){{
-  var file=b.getAttribute("data-copy").split("/").pop();
-  var url=new URL(file, window.location.href).href;
-  if (window.location.protocol === "https:") {{
-    b.setAttribute("data-copy", url);
-    b.previousElementSibling.textContent=url;
+  if (!b.classList.contains("copy-name")) {{
+    var file=b.getAttribute("data-copy").split("/").pop();
+    var url=new URL(file, window.location.href).href;
+    if (window.location.protocol === "https:") {{
+      b.setAttribute("data-copy", url);
+      b.previousElementSibling.textContent=url;
+    }}
   }}
   b.addEventListener("click", function(){{
     navigator.clipboard.writeText(b.getAttribute("data-copy")).then(function(){{
