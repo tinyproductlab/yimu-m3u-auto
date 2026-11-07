@@ -1,0 +1,22 @@
+{
+  "sources": {
+    "fanmingming": {
+      "error": "<urlopen error EOF occurred in violation of protocol (_ssl.c:1129)>"
+    },
+    "iptv-org-cn": {
+      "fetched": 156,
+      "degraded_cache": false
+    },
+    "yang-1989": {
+      "fetched": 123,
+      "degraded_cache": false
+    }
+  },
+  "generated_at": "2026-11-07 10:32:00 UTC",
+  "deduped": 279,
+  "final": 279,
+  "epg": {
+    "channels": 0,
+    "programmes": 0
+  }
+}
