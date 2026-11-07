@@ -108,6 +108,12 @@ a{{color:#8ab4f8}}
 </div>
 <script>
 document.querySelectorAll("button[data-copy]").forEach(function(b){{
+  var file=b.getAttribute("data-copy").split("/").pop();
+  var url=new URL(file, window.location.href).href;
+  if (window.location.protocol === "https:") {{
+    b.setAttribute("data-copy", url);
+    b.previousElementSibling.textContent=url;
+  }}
   b.addEventListener("click", function(){{
     navigator.clipboard.writeText(b.getAttribute("data-copy")).then(function(){{
       var t=b.textContent; b.textContent="已复制"; b.classList.add("ok");
