@@ -7,6 +7,12 @@
 import json, re, shutil
 from pathlib import Path
 
+try:
+    import qrcode
+    from qrcode.constants import ERROR_CORRECT_M
+except ImportError:
+    qrcode = None
+
 BASE = Path(__file__).resolve().parent
 SITE = BASE / "out" / "site"
 DOMAIN = "https://m3u.tinyplab.com"
@@ -23,6 +29,19 @@ def parse_entries(text):
             entries.append(cur)
             cur = None
     return entries
+
+def make_qr(url, filename):
+    """二维码与链接同源生成：内容就是卡片上那条订阅地址，链接一改、重跑即自动换图。"""
+    if qrcode is None:
+        print("警告：未安装 qrcode 库，跳过二维码生成")
+        return False
+    qr_dir = SITE / "qr"
+    qr_dir.mkdir(parents=True, exist_ok=True)
+    img = qrcode.QRCode(error_correction=ERROR_CORRECT_M, box_size=6, border=2)
+    img.add_data(url)
+    img.make(fit=True)
+    img.make_image(fill_color="black", back_color="white").save(qr_dir / (filename + ".png"))
+    return True
 
 def write_list(filename, entries, has_epg):
     head = f'#EXTM3U x-tvg-url="{DOMAIN}/epg.xml"' if has_epg else "#EXTM3U"
@@ -67,13 +86,16 @@ def main():
         lists.append((fn, label, short_names.get(fn, label), n))
         print(f"{fn}: {n}")
 
+    for fn, label, short, n in lists:
+        make_qr(f"{DOMAIN}/{fn}", fn)
     cards = "\n".join(
-        f'''<div class="card"><div class="meta"><div class="name">{label}<button class="mini copy-name" data-copy="{short}">复制名字</button></div><div class="cnt">{n} 个频道 · 文件 {fn}</div></div><div class="row"><code>{DOMAIN}/{fn}</code><button data-copy="{DOMAIN}/{fn}">复制地址</button></div></div>'''
+        f'''<div class="card"><div class="meta"><div class="name">{label}<button class="mini copy-name" data-copy="{short}">复制名字</button></div><div class="cnt">{n} 个频道 · 文件 {fn}</div></div><div class="row"><code>{DOMAIN}/{fn}</code><button data-copy="{DOMAIN}/{fn}">复制地址</button><span class="qrwrap"><button class="qrbtn" type="button">二维码</button><span class="qrpop"><img src="qr/{fn}.png" alt="{short} 二维码"><i>扫码导入 · {short}</i></span></span></div></div>'''
         for fn, label, short, n in lists
     )
     epg_card = ""
     if has_epg:
-        epg_card = f'''<div class="card"><div class="meta"><div class="name">EPG 节目单<button class="mini copy-name" data-copy="一幕播单·节目单">复制名字</button></div><div class="cnt">{report["epg"]["channels"]} 个频道 · {report["epg"]["programmes"]} 条节目</div></div><div class="row"><code>{DOMAIN}/epg.xml</code><button data-copy="{DOMAIN}/epg.xml">复制地址</button></div></div>'''
+        make_qr(f"{DOMAIN}/epg.xml", "epg.xml")
+        epg_card = f'''<div class="card"><div class="meta"><div class="name">EPG 节目单<button class="mini copy-name" data-copy="一幕播单·节目单">复制名字</button></div><div class="cnt">{report["epg"]["channels"]} 个频道 · {report["epg"]["programmes"]} 条节目</div></div><div class="row"><code>{DOMAIN}/epg.xml</code><button data-copy="{DOMAIN}/epg.xml">复制地址</button><span class="qrwrap"><button class="qrbtn" type="button">二维码</button><span class="qrpop"><img src="qr/epg.xml.png" alt="EPG 节目单二维码"><i>扫码导入 · 一幕播单·节目单</i></span></span></div></div>'''
     else:
         epg_card = '''<div class="card dim"><div class="meta"><div class="name">EPG 节目单</div><div class="cnt">节目单源完善中，稍后上线</div></div></div>'''
 
@@ -99,6 +121,12 @@ h1{{font-size:26px;margin:0 0 8px}}
 .stats{{color:#e8eaed;background:#171a21;border:1px solid #232833;border-radius:10px;padding:10px 14px;margin:16px 0 24px;font-size:14px}}
 .card{{background:#171a21;border:1px solid #232833;border-radius:12px;padding:16px;margin:0 0 12px}}
 .card.dim{{opacity:.55}}
+.qrwrap{{position:relative;display:inline-block}}
+.qrbtn{{background:transparent;border:1px solid #3a4152;color:#e8eaed;border-radius:8px;padding:0 14px;font-size:14px;cursor:pointer;height:100%}}
+.qrpop{{display:none;position:absolute;right:0;top:calc(100% + 8px);background:#fff;border-radius:12px;padding:10px;box-shadow:0 10px 34px rgba(0,0,0,.55);z-index:30;text-align:center}}
+.qrpop img{{width:184px;height:184px;display:block}}
+.qrpop i{{display:block;font-style:normal;color:#333;font-size:12px;margin-top:6px}}
+.qrwrap:hover .qrpop,.qrwrap.open .qrpop{{display:block}}
 .name{{font-size:17px;font-weight:600}}
 .cnt{{color:#9aa0a6;font-size:13px;margin-top:2px}}
 .row{{display:flex;gap:8px;margin-top:12px}}
@@ -140,6 +168,18 @@ document.querySelectorAll("button[data-copy]").forEach(function(b){{
       setTimeout(function(){{b.textContent=t; b.classList.remove("ok");}},1500);
     }});
   }});
+}});
+document.querySelectorAll(".qrbtn").forEach(function(b){{
+  b.addEventListener("click", function(e){{
+    e.stopPropagation();
+    var w=b.closest(".qrwrap");
+    var was=w.classList.contains("open");
+    document.querySelectorAll(".qrwrap.open").forEach(function(x){{x.classList.remove("open");}});
+    if(!was){{w.classList.add("open");}}
+  }});
+}});
+document.addEventListener("click", function(){{
+  document.querySelectorAll(".qrwrap.open").forEach(function(x){{x.classList.remove("open");}});
 }});
 </script></body></html>'''
     (SITE / "index.html").write_text(html, encoding="utf-8")

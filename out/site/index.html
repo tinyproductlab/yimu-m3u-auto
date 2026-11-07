@@ -10,6 +10,12 @@ h1{font-size:26px;margin:0 0 8px}
 .stats{color:#e8eaed;background:#171a21;border:1px solid #232833;border-radius:10px;padding:10px 14px;margin:16px 0 24px;font-size:14px}
 .card{background:#171a21;border:1px solid #232833;border-radius:12px;padding:16px;margin:0 0 12px}
 .card.dim{opacity:.55}
+.qrwrap{position:relative;display:inline-block}
+.qrbtn{background:transparent;border:1px solid #3a4152;color:#e8eaed;border-radius:8px;padding:0 14px;font-size:14px;cursor:pointer;height:100%}
+.qrpop{display:none;position:absolute;right:0;top:calc(100% + 8px);background:#fff;border-radius:12px;padding:10px;box-shadow:0 10px 34px rgba(0,0,0,.55);z-index:30;text-align:center}
+.qrpop img{width:184px;height:184px;display:block}
+.qrpop i{display:block;font-style:normal;color:#333;font-size:12px;margin-top:6px}
+.qrwrap:hover .qrpop,.qrwrap.open .qrpop{display:block}
 .name{font-size:17px;font-weight:600}
 .cnt{color:#9aa0a6;font-size:13px;margin-top:2px}
 .row{display:flex;gap:8px;margin-top:12px}
@@ -28,12 +34,12 @@ a{color:#8ab4f8}
 <h1>一幕播单</h1>
 <p class="sub">这里是自动维护的公开免费直播频道订阅地址。复制任意一条，粘贴到你的播放器订阅里就能看，地址长期不变，上游拉取失败时沿用已有缓存。</p>
 <div class="stats">当前共 <b>466</b> 个频道 · 最近更新 2026-11-07 15:09:19 UTC · 每 6 小时尝试更新 · 播放可用性以播放器为准</div>
-<div class="card"><div class="meta"><div class="name">全量合集（央视/卫视/地方/体育/少儿…）<button class="mini copy-name" data-copy="一幕播单·全量">复制名字</button></div><div class="cnt">466 个频道 · 文件 all.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/all.m3u</code><button data-copy="https://m3u.tinyplab.com/all.m3u">复制地址</button></div></div>
-<div class="card"><div class="meta"><div class="name">央视＋卫视<button class="mini copy-name" data-copy="一幕播单·央视卫视">复制名字</button></div><div class="cnt">135 个频道 · 文件 cctv.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/cctv.m3u</code><button data-copy="https://m3u.tinyplab.com/cctv.m3u">复制地址</button></div></div>
-<div class="card"><div class="meta"><div class="name">体育<button class="mini copy-name" data-copy="一幕播单·体育">复制名字</button></div><div class="cnt">12 个频道 · 文件 sports.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/sports.m3u</code><button data-copy="https://m3u.tinyplab.com/sports.m3u">复制地址</button></div></div>
-<div class="card"><div class="meta"><div class="name">少儿卡通<button class="mini copy-name" data-copy="一幕播单·少儿">复制名字</button></div><div class="cnt">11 个频道 · 文件 kids.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/kids.m3u</code><button data-copy="https://m3u.tinyplab.com/kids.m3u">复制地址</button></div></div>
-<div class="card"><div class="meta"><div class="name">电影<button class="mini copy-name" data-copy="一幕播单·电影">复制名字</button></div><div class="cnt">20 个频道 · 文件 movies.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/movies.m3u</code><button data-copy="https://m3u.tinyplab.com/movies.m3u">复制地址</button></div></div>
-<div class="card"><div class="meta"><div class="name">EPG 节目单<button class="mini copy-name" data-copy="一幕播单·节目单">复制名字</button></div><div class="cnt">54 个频道 · 11872 条节目</div></div><div class="row"><code>https://m3u.tinyplab.com/epg.xml</code><button data-copy="https://m3u.tinyplab.com/epg.xml">复制地址</button></div></div>
+<div class="card"><div class="meta"><div class="name">全量合集（央视/卫视/地方/体育/少儿…）<button class="mini copy-name" data-copy="一幕播单·全量">复制名字</button></div><div class="cnt">466 个频道 · 文件 all.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/all.m3u</code><button data-copy="https://m3u.tinyplab.com/all.m3u">复制地址</button><span class="qrwrap"><button class="qrbtn" type="button">二维码</button><span class="qrpop"><img src="qr/all.m3u.png" alt="一幕播单·全量 二维码"><i>扫码导入 · 一幕播单·全量</i></span></span></div></div>
+<div class="card"><div class="meta"><div class="name">央视＋卫视<button class="mini copy-name" data-copy="一幕播单·央视卫视">复制名字</button></div><div class="cnt">135 个频道 · 文件 cctv.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/cctv.m3u</code><button data-copy="https://m3u.tinyplab.com/cctv.m3u">复制地址</button><span class="qrwrap"><button class="qrbtn" type="button">二维码</button><span class="qrpop"><img src="qr/cctv.m3u.png" alt="一幕播单·央视卫视 二维码"><i>扫码导入 · 一幕播单·央视卫视</i></span></span></div></div>
+<div class="card"><div class="meta"><div class="name">体育<button class="mini copy-name" data-copy="一幕播单·体育">复制名字</button></div><div class="cnt">12 个频道 · 文件 sports.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/sports.m3u</code><button data-copy="https://m3u.tinyplab.com/sports.m3u">复制地址</button><span class="qrwrap"><button class="qrbtn" type="button">二维码</button><span class="qrpop"><img src="qr/sports.m3u.png" alt="一幕播单·体育 二维码"><i>扫码导入 · 一幕播单·体育</i></span></span></div></div>
+<div class="card"><div class="meta"><div class="name">少儿卡通<button class="mini copy-name" data-copy="一幕播单·少儿">复制名字</button></div><div class="cnt">11 个频道 · 文件 kids.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/kids.m3u</code><button data-copy="https://m3u.tinyplab.com/kids.m3u">复制地址</button><span class="qrwrap"><button class="qrbtn" type="button">二维码</button><span class="qrpop"><img src="qr/kids.m3u.png" alt="一幕播单·少儿 二维码"><i>扫码导入 · 一幕播单·少儿</i></span></span></div></div>
+<div class="card"><div class="meta"><div class="name">电影<button class="mini copy-name" data-copy="一幕播单·电影">复制名字</button></div><div class="cnt">20 个频道 · 文件 movies.m3u</div></div><div class="row"><code>https://m3u.tinyplab.com/movies.m3u</code><button data-copy="https://m3u.tinyplab.com/movies.m3u">复制地址</button><span class="qrwrap"><button class="qrbtn" type="button">二维码</button><span class="qrpop"><img src="qr/movies.m3u.png" alt="一幕播单·电影 二维码"><i>扫码导入 · 一幕播单·电影</i></span></span></div></div>
+<div class="card"><div class="meta"><div class="name">EPG 节目单<button class="mini copy-name" data-copy="一幕播单·节目单">复制名字</button></div><div class="cnt">54 个频道 · 11872 条节目</div></div><div class="row"><code>https://m3u.tinyplab.com/epg.xml</code><button data-copy="https://m3u.tinyplab.com/epg.xml">复制地址</button><span class="qrwrap"><button class="qrbtn" type="button">二维码</button><span class="qrpop"><img src="qr/epg.xml.png" alt="EPG 节目单二维码"><i>扫码导入 · 一幕播单·节目单</i></span></span></div></div>
 <h2 class="ptitle">小产品实验室的其他产品</h2>
 <div class="prods">
 <a href="https://tinylabpro.com/tools/" target="_blank" rel="noopener">选字转二维码插件<i>选中文字右键生成二维码</i></a>
@@ -63,5 +69,17 @@ document.querySelectorAll("button[data-copy]").forEach(function(b){
       setTimeout(function(){b.textContent=t; b.classList.remove("ok");},1500);
     });
   });
+});
+document.querySelectorAll(".qrbtn").forEach(function(b){
+  b.addEventListener("click", function(e){
+    e.stopPropagation();
+    var w=b.closest(".qrwrap");
+    var was=w.classList.contains("open");
+    document.querySelectorAll(".qrwrap.open").forEach(function(x){x.classList.remove("open");});
+    if(!was){w.classList.add("open");}
+  });
+});
+document.addEventListener("click", function(){
+  document.querySelectorAll(".qrwrap.open").forEach(function(x){x.classList.remove("open");});
 });
 </script></body></html>

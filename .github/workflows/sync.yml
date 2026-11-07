@@ -29,6 +29,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: 安装二维码生成依赖
+        run: pip install "qrcode[pil]"
+
       - name: 拉取、去重、生成清单（云端不验活，理由见说明）
         run: python3 aggregate.py --no-check
 
