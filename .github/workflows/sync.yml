@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
@@ -18,8 +16,6 @@ jobs:
   aggregate:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    environment:
-      name: github-pages
     steps:
       - uses: actions/checkout@v4
 
@@ -45,10 +41,10 @@ jobs:
             git push
           fi
 
-      - name: 上传站点产物
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: out/site
-
-      - name: 发布到 GitHub Pages
-        uses: actions/deploy-pages@v4
+      - name: 通知 Cloudflare Pages 发布最新版
+        env:
+          DEPLOY_HOOK: ${{ secrets.CLOUDFLARE_PAGES_DEPLOY_HOOK }}
+        run: |
+          test -n "$DEPLOY_HOOK"
+          curl --fail --silent --show-error --max-time 30 \
+            --request POST --output /dev/null "$DEPLOY_HOOK"
