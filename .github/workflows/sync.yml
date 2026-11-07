@@ -4,6 +4,12 @@ on:
   schedule:
     - cron: "17 */6 * * *"   # 每 6 小时跑一次（UTC，分针错开整点）
   workflow_dispatch:          # 也可在 Actions 页手动点 Run
+  push:                       # 改了代码文件就立即重新发布（机器人只提交 out/ 与 cache/，不在此列，不会循环触发）
+    paths:
+      - "build_site.py"
+      - "aggregate.py"
+      - "sources.json"
+      - ".github/workflows/sync.yml"
 
 permissions:
   contents: write
