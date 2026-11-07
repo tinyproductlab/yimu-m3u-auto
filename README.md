@@ -36,4 +36,4 @@ python3 aggregate.py --timeout 5 --workers 64   # 调验活参数
 GitHub Actions 每 6 小时尝试更新，也可在 Actions 页面手动运行「定时聚合播单」。
 流程在云端使用 `--no-check`，生成全量、央视卫视、体育、少儿和电影订阅，并把清单、来源报告与最近一次有效的源缓存提交到仓库。上游返回错误或空清单时使用该源缓存；无任何可用频道时保留上一版站点。
 
-仓库的 Settings → Pages → Source 选择 GitHub Actions，Custom domain 设置为 `m3u.tinyplab.com`。在 Cloudflare 的 `tinyplab.com` 区域添加 DNS only 的 CNAME：`m3u` → `tinyproductlab.github.io`。等 GitHub Pages 签发证书后启用 Enforce HTTPS。
+Cloudflare Pages 项目 `yimu-m3u-auto` 连接本仓库的 `main` 分支，直接发布 `out/site`。在该项目的 Custom domains 中管理 `m3u.tinyplab.com`。
