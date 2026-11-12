@@ -18,9 +18,9 @@ http://119.166.53.110:85/tsfile/live/0002_1.m3u8?authid=0&key=txiptv&playlive=1
 #EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="https://live.fanmingming.com/tv/黑莓动画.png" group-title="NewTV",NewTV黑莓动画
 http://gslbserv.itv.cmvideo.cn/1000000004000021734/1.m3u8?channel-id=ystenlive&Contentid=1000000004000021734&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://iptv.yang-1989.xyz/logo/CCTV14.webp" group-title="•中國「Relay」",CCTV 14 少儿「Relay」
-https://iptv.yang-1989.xyz/cn/vesx35.m3u8
+https://iptv.yang-1989.xyz/cn/gdxdah.m3u8
 #EXTINF:-1 tvg-id="龍華卡通台" tvg-name="龍華卡通台" tvg-logo="https://iptv.yang-1989.xyz/logo/龍華卡通台.webp" group-title="•台灣「Relay」",龍華卡通「ofiii」
-https://iptv.yang-1989.xyz/ofiii/efhfmg.m3u8
+https://iptv.yang-1989.xyz/ofiii/6wrdt6.m3u8
 #EXTINF:-1 tvg-id="龍華卡通台" tvg-name="龍華卡通台" tvg-logo="https://iptv.yang-1989.xyz/logo/龍華卡通台.webp" group-title="•港澳台「Juli」",龍華卡通台
 https://cdn.qd.je/163189/lhkt
 #EXTINF:-1 tvg-id="内蒙古少儿" tvg-name="内蒙古少儿" tvg-logo="https://live.fanmingming.cn/tv/内蒙古少儿.png" group-title="☘️内蒙古频道",内蒙少儿
