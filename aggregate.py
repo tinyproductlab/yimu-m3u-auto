@@ -171,6 +171,14 @@ def main():
                 print(f"[{src['name']}] 拉取失败且无缓存，跳过：{ex}")
                 report["sources"][src["name"]] = {"error": str(ex)}
                 continue
+        excl_g = src.get("exclude_group_keywords", [])
+        excl_n = src.get("exclude_name_keywords", [])
+        if excl_g or excl_n:
+            before = len(entries)
+            entries = [e for e in entries
+                       if not any(k in e["group"] for k in excl_g)
+                       and not any(k in e["name"] for k in excl_n)]
+            print(f"[{src['name']}] 按源配置剔除 {before - len(entries)} 条（非直播/提示类）")
         for e in entries:
             e["source"] = src["name"]
         all_entries.extend(entries)
