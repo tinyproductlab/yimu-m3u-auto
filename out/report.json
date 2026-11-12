@@ -9,15 +9,23 @@
       "degraded_cache": false
     },
     "yang-1989": {
-      "fetched": 123,
+      "fetched": 285,
+      "degraded_cache": false
+    },
+    "kimentanm": {
+      "fetched": 76,
+      "degraded_cache": false
+    },
+    "suxuang": {
+      "fetched": 1171,
       "degraded_cache": false
     }
   },
-  "generated_at": "2026-11-12 07:16:59 UTC",
-  "deduped": 466,
-  "final": 466,
+  "generated_at": "2026-11-12 07:27:26 UTC",
+  "deduped": 1380,
+  "final": 1380,
   "epg": {
-    "channels": 51,
-    "programmes": 10250
+    "channels": 179,
+    "programmes": 32944
   }
 }
