@@ -3783,7 +3783,7 @@
     <title lang="zh">非遗里的中国第五季-四川德阳篇</title>
   </programme>
   <programme start="20261115000000 +0800" stop="20261115010200 +0800" channel="CCTV1">
-    <title lang="zh">非遗里的中国第五季-四川德阳篇</title>
+    <title lang="zh">非遗里的中国第五季</title>
   </programme>
   <programme start="20261115010200 +0800" stop="20261115014600 +0800" channel="CCTV1">
     <title lang="zh">生活圈</title>
@@ -8273,10 +8273,13 @@
   <programme start="20261115012700 +0800" stop="20261115022300 +0800" channel="CCTV9">
     <title lang="zh">魅力万象(318):瀑布「狒狒帮」(4)</title>
   </programme>
-  <programme start="20261115022300 +0800" stop="20261115025300 +0800" channel="CCTV9">
+  <programme start="20261115022300 +0800" stop="20261115025400 +0800" channel="CCTV9">
     <title lang="zh">活力·源:闪亮的APEC之旅(6)</title>
   </programme>
   <programme start="20261115025300 +0800" stop="20261115035400 +0800" channel="CCTV9">
+    <title lang="zh">特别呈现(318):我和我的邻居(1)</title>
+  </programme>
+  <programme start="20261115025400 +0800" stop="20261115035400 +0800" channel="CCTV9">
     <title lang="zh">特别呈现(318):我和我的邻居(1)</title>
   </programme>
   <programme start="20261115035400 +0800" stop="20261115041100 +0800" channel="CCTV9">
@@ -8285,10 +8288,13 @@
   <programme start="20261115041100 +0800" stop="20261115044600 +0800" channel="CCTV9">
     <title lang="zh">活力·源:闪亮的APEC之旅(6)</title>
   </programme>
-  <programme start="20261115044600 +0800" stop="20261115054200 +0800" channel="CCTV9">
+  <programme start="20261115044600 +0800" stop="20261115054300 +0800" channel="CCTV9">
     <title lang="zh">故事中国(280):生物圈日记(2)</title>
   </programme>
   <programme start="20261115054200 +0800" stop="20261115054600 +0800" channel="CCTV9">
+    <title lang="zh">中华人民共和国国歌</title>
+  </programme>
+  <programme start="20261115054300 +0800" stop="20261115054600 +0800" channel="CCTV9">
     <title lang="zh">中华人民共和国国歌</title>
   </programme>
   <programme start="20261115054600 +0800" stop="20261115064700 +0800" channel="CCTV9">
@@ -10166,10 +10172,13 @@
   <programme start="20261114230000 +0800" stop="20261114235959 +0800" channel="CCTV13">
     <title lang="zh">24小时</title>
   </programme>
-  <programme start="20261115000000 +0800" stop="20261115001500 +0800" channel="CCTV13">
+  <programme start="20261115000000 +0800" stop="20261115002800 +0800" channel="CCTV13">
     <title lang="zh">午夜新闻</title>
   </programme>
   <programme start="20261115001500 +0800" stop="20261115010000 +0800" channel="CCTV13">
+    <title lang="zh">新闻调查</title>
+  </programme>
+  <programme start="20261115002800 +0800" stop="20261115010000 +0800" channel="CCTV13">
     <title lang="zh">新闻调查</title>
   </programme>
   <programme start="20261115010000 +0800" stop="20261115011500 +0800" channel="CCTV13">
@@ -31638,7 +31647,7 @@
     <title lang="zh">海豚经典剧场:六姊妹14</title>
   </programme>
   <programme start="20261115000000 +0800" stop="20261115002700 +0800" channel="安徽卫视">
-    <title lang="zh">海豚经典剧场:百工图2</title>
+    <title lang="zh">纪录片:百工图2</title>
   </programme>
   <programme start="20261115000500 +0800" stop="20261115005700 +0800" channel="安徽卫视">
     <title lang="zh">纪录片</title>
@@ -38291,17 +38300,20 @@
   <programme start="20261115000100 +0800" stop="20261115004500 +0800" channel="山西卫视">
     <title lang="zh">电视剧:重案六组第四部17</title>
   </programme>
+  <programme start="20261115000300 +0800" stop="20261115004500 +0800" channel="山西卫视">
+    <title lang="zh">电视剧:重案六组第四部15</title>
+  </programme>
   <programme start="20261115004500 +0800" stop="20261115011000 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
   </programme>
   <programme start="20261115011000 +0800" stop="20261115015600 +0800" channel="山西卫视">
-    <title lang="zh">电视剧:重案六组第四部18</title>
+    <title lang="zh">电视剧:重案六组第四部16</title>
   </programme>
   <programme start="20261115015600 +0800" stop="20261115022000 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
   </programme>
   <programme start="20261115022000 +0800" stop="20261115031000 +0800" channel="山西卫视">
-    <title lang="zh">电视剧:重案六组第四部19</title>
+    <title lang="zh">电视剧:重案六组第四部17</title>
   </programme>
   <programme start="20261115031000 +0800" stop="20261115042100 +0800" channel="山西卫视">
     <title lang="zh">歌从黄河来·唱游山西</title>
@@ -38412,13 +38424,13 @@
     <title lang="zh">走进大戏台</title>
   </programme>
   <programme start="20261115221900 +0800" stop="20261115224100 +0800" channel="山西卫视">
-    <title lang="zh">电视剧:重案六组第四部21</title>
+    <title lang="zh">电视剧:重案六组第四部18</title>
   </programme>
   <programme start="20261115224100 +0800" stop="20261115230900 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
   </programme>
   <programme start="20261115230900 +0800" stop="20261115233500 +0800" channel="山西卫视">
-    <title lang="zh">电视剧:重案六组第四部22</title>
+    <title lang="zh">电视剧:重案六组第四部19</title>
   </programme>
   <programme start="20261115233500 +0800" stop="20261115235959 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
@@ -38427,13 +38439,13 @@
     <title lang="zh">生活服务</title>
   </programme>
   <programme start="20261116001200 +0800" stop="20261116005500 +0800" channel="山西卫视">
-    <title lang="zh">电视剧:重案六组第四部23</title>
+    <title lang="zh">电视剧:重案六组第四部20</title>
   </programme>
   <programme start="20261116005500 +0800" stop="20261116011400 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
   </programme>
   <programme start="20261116011400 +0800" stop="20261116015700 +0800" channel="山西卫视">
-    <title lang="zh">电视剧:重案六组第四部24</title>
+    <title lang="zh">电视剧:重案六组第四部21</title>
   </programme>
   <programme start="20261116015700 +0800" stop="20261116021600 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
@@ -38544,13 +38556,13 @@
     <title lang="zh">晚间新闻</title>
   </programme>
   <programme start="20261116214800 +0800" stop="20261116223100 +0800" channel="山西卫视">
-    <title lang="zh">电视剧:重案六组第四部25</title>
+    <title lang="zh">电视剧:重案六组第四部22</title>
   </programme>
   <programme start="20261116223100 +0800" stop="20261116230100 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
   </programme>
   <programme start="20261116230100 +0800" stop="20261116234300 +0800" channel="山西卫视">
-    <title lang="zh">电视剧:重案六组第四部26</title>
+    <title lang="zh">电视剧:重案六组第四部23</title>
   </programme>
   <programme start="20261116234300 +0800" stop="20261116235959 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
@@ -40964,8 +40976,11 @@
   <programme start="20261115000000 +0800" stop="20261115000200 +0800" channel="新疆卫视">
     <title lang="zh">纪录片:天涯共此诗</title>
   </programme>
-  <programme start="20261115000200 +0800" stop="20261115003100 +0800" channel="新疆卫视">
+  <programme start="20261115000200 +0800" stop="20261115000500 +0800" channel="新疆卫视">
     <title lang="zh">纪录片:四季新疆4</title>
+  </programme>
+  <programme start="20261115000500 +0800" stop="20261115003100 +0800" channel="新疆卫视">
+    <title lang="zh">纪录片:天涯共此诗</title>
   </programme>
   <programme start="20261115003100 +0800" stop="20261115011000 +0800" channel="新疆卫视">
     <title lang="zh">真实纪录</title>
@@ -104054,9 +104069,49 @@ Dream Home 將帶領六對澳洲人將翻新風格提升至新高，每戶人一
     <title lang="zh">伊朗與核武：法里德·扎卡利亞特別報導</title>
     <desc lang="zh">在持續衝突的背景下，法里德·扎卡里亞追溯了伊朗長達數十年的核計畫，探討戰爭、外國干預以及失敗的外交，如何塑造出全球最重要的地緣政治挑戰之一。</desc>
   </programme>
-  <programme start="20261116130000 +0800" stop="20261117000000 +0800" channel="CNN">
+  <programme start="20261116130000 +0800" stop="20261116140000 +0800" channel="CNN">
     <title lang="zh">費利德·扎卡利亞的環球視野</title>
     <desc lang="zh">向世界領袖、藝術家、科學家、企業領袖、全球事務分析師及其他文化觀察家提供見解、分析與訪談。</desc>
+  </programme>
+  <programme start="20261116140000 +0800" stop="20261116150000 +0800" channel="CNN">
+    <title lang="zh">國情咨文：傑克·塔珀與達娜·巴什專訪</title>
+    <desc lang="zh">傑克·塔珀與達娜·巴什集結了主要新聞記者、分析師和專家，共同應對全球舞台上迫切的國內議題與外交議題。</desc>
+  </programme>
+  <programme start="20261116150000 +0800" stop="20261116160000 +0800" channel="CNN">
+    <title lang="zh">CNN新聞編輯室直播</title>
+    <desc lang="zh">來自世界各地的最新消息。</desc>
+  </programme>
+  <programme start="20261116160000 +0800" stop="20261116170000 +0800" channel="CNN">
+    <title lang="zh">CNN新聞編輯室直播</title>
+    <desc lang="zh">來自世界各地的最新消息。</desc>
+  </programme>
+  <programme start="20261116170000 +0800" stop="20261116180000 +0800" channel="CNN">
+    <title lang="zh">CNN新聞編輯室直播</title>
+    <desc lang="zh">來自世界各地的最新消息。</desc>
+  </programme>
+  <programme start="20261116180000 +0800" stop="20261116190000 +0800" channel="CNN">
+    <title lang="zh">CNN 頭條快車直播</title>
+    <desc lang="zh">布萊德·史密斯為您帶來最引人注目的頭條新聞與最值得關注的精彩報導。</desc>
+  </programme>
+  <programme start="20261116190000 +0800" stop="20261116200000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN早晨新聞</title>
+    <desc lang="zh">來自世界各地的故事，以及與奧迪·科尼什的對話。</desc>
+  </programme>
+  <programme start="20261116200000 +0800" stop="20261116210000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261116210000 +0800" stop="20261116220000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261116220000 +0800" stop="20261116230000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261116230000 +0800" stop="20261117000000 +0800" channel="CNN">
+    <title lang="zh">直播：戰情室</title>
+    <desc lang="zh">沃爾夫·布利澤和帕梅拉·布朗是新聞、政治以及來自世界各地的非凡報導的指揮中心。</desc>
   </programme>
   <programme start="20261112000000 +0800" stop="20261112010000 +0800" channel="Sky News">
     <title lang="zh">天空新聞</title>
