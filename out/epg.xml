@@ -4797,11 +4797,14 @@
   <programme start="20261117051900 +0800" stop="20261117060900 +0800" channel="CCTV3">
     <title lang="zh">我的艺术清单</title>
   </programme>
-  <programme start="20261117060900 +0800" stop="20261117063000 +0800" channel="CCTV3">
+  <programme start="20261117060900 +0800" stop="20261117062900 +0800" channel="CCTV3">
     <title lang="zh">文化十分</title>
   </programme>
   <programme start="20261117061400 +0800" stop="20261117063500 +0800" channel="CCTV3">
     <title lang="zh">文化十分</title>
+  </programme>
+  <programme start="20261117062900 +0800" stop="20261117063000 +0800" channel="CCTV3">
+    <title lang="zh">中华人民共和国国歌</title>
   </programme>
   <programme start="20261117063000 +0800" stop="20261117073000 +0800" channel="CCTV3">
     <title lang="zh">国音正青春(6)</title>
@@ -7242,22 +7245,37 @@
   <programme start="20261118075800 +0800" stop="20261118082800 +0800" channel="CCTV7">
     <title lang="zh">军事科技</title>
   </programme>
-  <programme start="20261118082800 +0800" stop="20261118090100 +0800" channel="CCTV7">
+  <programme start="20261118082800 +0800" stop="20261118090300 +0800" channel="CCTV7">
     <title lang="zh">第二战场</title>
   </programme>
   <programme start="20261118090100 +0800" stop="20261118093300 +0800" channel="CCTV7">
     <title lang="zh">防务新观察</title>
   </programme>
+  <programme start="20261118090300 +0800" stop="20261118093500 +0800" channel="CCTV7">
+    <title lang="zh">防务新观察</title>
+  </programme>
   <programme start="20261118093300 +0800" stop="20261118100300 +0800" channel="CCTV7">
+    <title lang="zh">军事纪实</title>
+  </programme>
+  <programme start="20261118093500 +0800" stop="20261118100500 +0800" channel="CCTV7">
     <title lang="zh">军事纪实</title>
   </programme>
   <programme start="20261118100300 +0800" stop="20261118103100 +0800" channel="CCTV7">
     <title lang="zh">兵器面面观</title>
   </programme>
+  <programme start="20261118100500 +0800" stop="20261118103300 +0800" channel="CCTV7">
+    <title lang="zh">兵器面面观</title>
+  </programme>
   <programme start="20261118103100 +0800" stop="20261118105600 +0800" channel="CCTV7">
     <title lang="zh">世界战史</title>
   </programme>
+  <programme start="20261118103300 +0800" stop="20261118110100 +0800" channel="CCTV7">
+    <title lang="zh">世界战史</title>
+  </programme>
   <programme start="20261118105600 +0800" stop="20261118112800 +0800" channel="CCTV7">
+    <title lang="zh">国防故事</title>
+  </programme>
+  <programme start="20261118110100 +0800" stop="20261118112800 +0800" channel="CCTV7">
     <title lang="zh">国防故事</title>
   </programme>
   <programme start="20261118112800 +0800" stop="20261118115300 +0800" channel="CCTV7">
@@ -7266,8 +7284,11 @@
   <programme start="20261118115300 +0800" stop="20261118120000 +0800" channel="CCTV7">
     <title lang="zh">国防微视频-军歌嘹亮</title>
   </programme>
-  <programme start="20261118120000 +0800" stop="20261118123600 +0800" channel="CCTV7">
+  <programme start="20261118120000 +0800" stop="20261118123300 +0800" channel="CCTV7">
     <title lang="zh">正午国防军事</title>
+  </programme>
+  <programme start="20261118123300 +0800" stop="20261118132400 +0800" channel="CCTV7">
+    <title lang="zh">伟大远征(3)</title>
   </programme>
   <programme start="20261118123600 +0800" stop="20261118130800 +0800" channel="CCTV7">
     <title lang="zh">防务新观察</title>
@@ -7275,8 +7296,14 @@
   <programme start="20261118130800 +0800" stop="20261118134100 +0800" channel="CCTV7">
     <title lang="zh">军武零距离</title>
   </programme>
+  <programme start="20261118132400 +0800" stop="20261118135600 +0800" channel="CCTV7">
+    <title lang="zh">防务新观察</title>
+  </programme>
   <programme start="20261118134100 +0800" stop="20261118140600 +0800" channel="CCTV7">
     <title lang="zh">兵器面面观</title>
+  </programme>
+  <programme start="20261118135600 +0800" stop="20261118143400 +0800" channel="CCTV7">
+    <title lang="zh">军武零距离</title>
   </programme>
   <programme start="20261118140600 +0800" stop="20261118143400 +0800" channel="CCTV7">
     <title lang="zh">军事纪录</title>
@@ -7290,19 +7317,31 @@
   <programme start="20261118161300 +0800" stop="20261118170300 +0800" channel="CCTV7">
     <title lang="zh">特别行动(13)</title>
   </programme>
-  <programme start="20261118170300 +0800" stop="20261118172800 +0800" channel="CCTV7">
+  <programme start="20261118170300 +0800" stop="20261118172900 +0800" channel="CCTV7">
     <title lang="zh">世界战史</title>
   </programme>
   <programme start="20261118172800 +0800" stop="20261118175700 +0800" channel="CCTV7">
     <title lang="zh">军事纪录</title>
   </programme>
+  <programme start="20261118172900 +0800" stop="20261118175800 +0800" channel="CCTV7">
+    <title lang="zh">军事纪录</title>
+  </programme>
   <programme start="20261118175700 +0800" stop="20261118175900 +0800" channel="CCTV7">
+    <title lang="zh">国防微视频-军歌嘹亮</title>
+  </programme>
+  <programme start="20261118175800 +0800" stop="20261118180000 +0800" channel="CCTV7">
     <title lang="zh">国防微视频-军歌嘹亮</title>
   </programme>
   <programme start="20261118175900 +0800" stop="20261118182500 +0800" channel="CCTV7">
     <title lang="zh">兵器面面观</title>
   </programme>
+  <programme start="20261118180000 +0800" stop="20261118182800 +0800" channel="CCTV7">
+    <title lang="zh">兵器面面观</title>
+  </programme>
   <programme start="20261118182500 +0800" stop="20261118190000 +0800" channel="CCTV7">
+    <title lang="zh">国防故事</title>
+  </programme>
+  <programme start="20261118182800 +0800" stop="20261118190000 +0800" channel="CCTV7">
     <title lang="zh">国防故事</title>
   </programme>
   <programme start="20261118190000 +0800" stop="20261118193300 +0800" channel="CCTV7">
@@ -9223,7 +9262,7 @@
     <title lang="zh">大唐狄公案(12)</title>
   </programme>
   <programme start="20261117012200 +0800" stop="20261117015300 +0800" channel="CCTV11">
-    <title lang="zh">青春戏苑:景荣庆先生专辑</title>
+    <title lang="zh">典藏:景荣庆先生专辑</title>
   </programme>
   <programme start="20261117015300 +0800" stop="20261117060000 +0800" channel="CCTV11">
     <title lang="zh">再见</title>
@@ -9237,8 +9276,11 @@
   <programme start="20261117071700 +0800" stop="20261117082100 +0800" channel="CCTV11">
     <title lang="zh">青春戏苑:粉墨华章(1)</title>
   </programme>
-  <programme start="20261117082100 +0800" stop="20261117083300 +0800" channel="CCTV11">
+  <programme start="20261117082100 +0800" stop="20261117082600 +0800" channel="CCTV11">
     <title lang="zh">梨园周刊:绝活-变脸精编</title>
+  </programme>
+  <programme start="20261117082600 +0800" stop="20261117083300 +0800" channel="CCTV11">
+    <title lang="zh">四时花开</title>
   </programme>
   <programme start="20261117083300 +0800" stop="20261117090600 +0800" channel="CCTV11">
     <title lang="zh">青春戏苑:曲苑雅集(30)</title>
@@ -10710,7 +10752,10 @@
   <programme start="20261117081500 +0800" stop="20261117084500 +0800" channel="CCTV14">
     <title lang="zh">小小智慧树</title>
   </programme>
-  <programme start="20261117084500 +0800" stop="20261117120000 +0800" channel="CCTV14">
+  <programme start="20261117084500 +0800" stop="20261117090200 +0800" channel="CCTV14">
+    <title lang="zh">征途小脚丫</title>
+  </programme>
+  <programme start="20261117090200 +0800" stop="20261117120000 +0800" channel="CCTV14">
     <title lang="zh">熊出没之小小世界Ⅱ</title>
   </programme>
   <programme start="20261117120000 +0800" stop="20261117133000 +0800" channel="CCTV14">
@@ -31701,8 +31746,8 @@
   <programme start="20261116235600 +0800" stop="20261116235959 +0800" channel="安徽卫视">
     <title lang="zh">纪录片:兴乡计第二季2</title>
   </programme>
-  <programme start="20261117000000 +0800" stop="20261117001400 +0800" channel="安徽卫视">
-    <title lang="zh">纪录片:兴乡计第二季2</title>
+  <programme start="20261117000000 +0800" stop="20261117002900 +0800" channel="安徽卫视">
+    <title lang="zh">纪录片:兴乡计第一季2</title>
   </programme>
   <programme start="20261117001400 +0800" stop="20261117005200 +0800" channel="安徽卫视">
     <title lang="zh">纪录片</title>
@@ -61018,7 +61063,7 @@ ABC新聞備受好評的系列劇《20/20》已將自身視為廣播新聞領域
     <desc lang="zh">《型男大主廚》由金鐘主持人曾國城、卓文萱及專業主廚詹姆士、吳秉承.所共同主持，開播十餘年來不斷推陳出新，將料理融入綜藝，讓美食多了歡笑的調味，帶給大家幸福的晚餐時刻。</desc>
   </programme>
   <programme start="20261116140000 +0800" stop="20261116150000 +0800" channel="緯來綜合台">
-    <title lang="zh">日本澡堂！吃得到和牛・炸蝦・鐵板燒</title>
+    <title lang="zh">日本澡堂！和牛、炸蝦、鐵板燒</title>
     <desc lang="zh">打破傳統日本澡堂（錢湯）僅能簡單泡澡的印象，介紹日本各地將「泡湯」結合「超水準美食與娛樂」的超級錢湯與溫泉設施。</desc>
   </programme>
   <programme start="20261116150000 +0800" stop="20261116160000 +0800" channel="緯來綜合台">
@@ -103825,9 +103870,49 @@ ABC新聞備受好評的系列劇《20/20》已將自身視為廣播新聞領域
     <title lang="zh">勞拉柯茲直播</title>
     <desc lang="zh">蘿拉·柯茲透過新聞、法律與流行文化的視角，激發獨特的對話，並報導當天最有趣的故事。</desc>
   </programme>
-  <programme start="20261118130000 +0800" stop="20261119000000 +0800" channel="CNN">
+  <programme start="20261118130000 +0800" stop="20261118140000 +0800" channel="CNN">
     <title lang="zh">直播：艾萊克斯·米切爾森故事時間</title>
     <desc lang="zh">艾歷克斯·麥可森以犀利的分析、嶄新的視角和幽默，探討屢屢屢屢屢屢屢矚目的新聞焦點。</desc>
+  </programme>
+  <programme start="20261118140000 +0800" stop="20261118150000 +0800" channel="CNN">
+    <title lang="zh">直播：艾萊克斯·米切爾森故事時間</title>
+    <desc lang="zh">艾歷克斯·麥可森以犀利的分析、嶄新的視角和幽默，探討屢屢屢屢屢屢屢矚目的新聞焦點。</desc>
+  </programme>
+  <programme start="20261118150000 +0800" stop="20261118160000 +0800" channel="CNN">
+    <title lang="zh">Anderson Cooper 360</title>
+    <desc lang="zh">安德森·庫珀不僅透過深入的報導與調查，更致力於讓掌權者負起責任;與他同行的嘉賓經常包括政治和法律分析師。</desc>
+  </programme>
+  <programme start="20261118160000 +0800" stop="20261118170000 +0800" channel="CNN">
+    <title lang="zh">CNN 艾比·菲利浦夜間新聞</title>
+    <desc lang="zh">艾比·菲利普在當天最重要的故事與議題上，帶領我們展開座談會。</desc>
+  </programme>
+  <programme start="20261118170000 +0800" stop="20261118180000 +0800" channel="CNN">
+    <title lang="zh">Anderson Cooper 360</title>
+    <desc lang="zh">安德森·庫珀不僅透過深入的報導與調查，更致力於讓掌權者負起責任;與他同行的嘉賓經常包括政治和法律分析師。</desc>
+  </programme>
+  <programme start="20261118180000 +0800" stop="20261118190000 +0800" channel="CNN">
+    <title lang="zh">CNN 頭條快車直播</title>
+    <desc lang="zh">布萊德·史密斯為您帶來最引人注目的頭條新聞與最值得關注的精彩報導。</desc>
+  </programme>
+  <programme start="20261118190000 +0800" stop="20261118200000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN早晨新聞</title>
+    <desc lang="zh">來自世界各地的故事，以及與奧迪·科尼什的對話。</desc>
+  </programme>
+  <programme start="20261118200000 +0800" stop="20261118210000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261118210000 +0800" stop="20261118220000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261118220000 +0800" stop="20261118230000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261118230000 +0800" stop="20261119000000 +0800" channel="CNN">
+    <title lang="zh">直播：戰情室</title>
+    <desc lang="zh">沃爾夫·布利澤和帕梅拉·布朗是新聞、政治以及來自世界各地的非凡報導的指揮中心。</desc>
   </programme>
   <programme start="20261114000000 +0800" stop="20261114010000 +0800" channel="Sky News">
     <title lang="zh">天空新聞</title>
