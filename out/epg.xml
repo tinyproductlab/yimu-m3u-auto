@@ -7093,13 +7093,19 @@
   <programme start="20261117233500 +0800" stop="20261117235959 +0800" channel="CCTV7">
     <title lang="zh">军事纪实</title>
   </programme>
-  <programme start="20261118000000 +0800" stop="20261118000900 +0800" channel="CCTV7">
+  <programme start="20261118000000 +0800" stop="20261118001400 +0800" channel="CCTV7">
     <title lang="zh">军事纪实</title>
   </programme>
   <programme start="20261118000900 +0800" stop="20261118004700 +0800" channel="CCTV7">
     <title lang="zh">兵器面面观</title>
   </programme>
+  <programme start="20261118001400 +0800" stop="20261118005200 +0800" channel="CCTV7">
+    <title lang="zh">兵器面面观</title>
+  </programme>
   <programme start="20261118004700 +0800" stop="20261118060200 +0800" channel="CCTV7">
+    <title lang="zh">再见</title>
+  </programme>
+  <programme start="20261118005200 +0800" stop="20261118060200 +0800" channel="CCTV7">
     <title lang="zh">再见</title>
   </programme>
   <programme start="20261118060200 +0800" stop="20261118060300 +0800" channel="CCTV7">
@@ -8332,16 +8338,25 @@
   <programme start="20261118025300 +0800" stop="20261118035400 +0800" channel="CCTV9">
     <title lang="zh">特别呈现(321):天下昆仑</title>
   </programme>
-  <programme start="20261118035400 +0800" stop="20261118041100 +0800" channel="CCTV9">
+  <programme start="20261118035400 +0800" stop="20261118041300 +0800" channel="CCTV9">
     <title lang="zh">9视频(321):考古者说(5)</title>
   </programme>
   <programme start="20261118041100 +0800" stop="20261118044600 +0800" channel="CCTV9">
     <title lang="zh">活力·源:考古学家的神秘武器Ⅱ</title>
   </programme>
+  <programme start="20261118041300 +0800" stop="20261118044700 +0800" channel="CCTV9">
+    <title lang="zh">活力·源:考古学家的神秘武器Ⅱ</title>
+  </programme>
   <programme start="20261118044600 +0800" stop="20261118051400 +0800" channel="CCTV9">
     <title lang="zh">故事中国(282):万水千山(3)</title>
   </programme>
+  <programme start="20261118044700 +0800" stop="20261118051500 +0800" channel="CCTV9">
+    <title lang="zh">故事中国(282):万水千山(3)</title>
+  </programme>
   <programme start="20261118051400 +0800" stop="20261118054200 +0800" channel="CCTV9">
+    <title lang="zh">故事中国(282):万水千山(4)</title>
+  </programme>
+  <programme start="20261118051500 +0800" stop="20261118054200 +0800" channel="CCTV9">
     <title lang="zh">故事中国(282):万水千山(4)</title>
   </programme>
   <programme start="20261118054200 +0800" stop="20261118054600 +0800" channel="CCTV9">
@@ -10331,7 +10346,7 @@
     <title lang="zh">新闻直播间</title>
   </programme>
   <programme start="20261118023300 +0800" stop="20261118030000 +0800" channel="CCTV13">
-    <title lang="zh">新闻1+1</title>
+    <title lang="zh">APEC1+1</title>
   </programme>
   <programme start="20261118030000 +0800" stop="20261118034400 +0800" channel="CCTV13">
     <title lang="zh">新闻直播间</title>
@@ -10343,7 +10358,7 @@
     <title lang="zh">新闻直播间</title>
   </programme>
   <programme start="20261118043300 +0800" stop="20261118050000 +0800" channel="CCTV13">
-    <title lang="zh">新闻1+1</title>
+    <title lang="zh">APEC1+1</title>
   </programme>
   <programme start="20261118050000 +0800" stop="20261118051800 +0800" channel="CCTV13">
     <title lang="zh">新闻直播间</title>
@@ -24385,7 +24400,7 @@
   <programme start="20261117233000 +0800" stop="20261118001000 +0800" channel="广西卫视">
     <title lang="zh">传奇剧场40集：摧毁(9)</title>
   </programme>
-  <programme start="20261118000000 +0800" stop="20261118000900 +0800" channel="广西卫视">
+  <programme start="20261118000000 +0800" stop="20261118013000 +0800" channel="广西卫视">
     <title lang="zh">传奇剧场:摧毁9</title>
   </programme>
   <programme start="20261118000900 +0800" stop="20261118005800 +0800" channel="广西卫视">
@@ -104128,9 +104143,49 @@ ABC新聞備受好評的系列劇《20/20》已將自身視為廣播新聞領域
     <title lang="zh">勞拉柯茲直播</title>
     <desc lang="zh">蘿拉·柯茲透過新聞、法律與流行文化的視角，激發獨特的對話，並報導當天最有趣的故事。</desc>
   </programme>
-  <programme start="20261119130000 +0800" stop="20261120000000 +0800" channel="CNN">
+  <programme start="20261119130000 +0800" stop="20261119140000 +0800" channel="CNN">
     <title lang="zh">直播：艾萊克斯·米切爾森故事時間</title>
     <desc lang="zh">艾歷克斯·麥可森以犀利的分析、嶄新的視角和幽默，探討屢屢屢屢屢屢屢矚目的新聞焦點。</desc>
+  </programme>
+  <programme start="20261119140000 +0800" stop="20261119150000 +0800" channel="CNN">
+    <title lang="zh">直播：艾萊克斯·米切爾森故事時間</title>
+    <desc lang="zh">艾歷克斯·麥可森以犀利的分析、嶄新的視角和幽默，探討屢屢屢屢屢屢屢矚目的新聞焦點。</desc>
+  </programme>
+  <programme start="20261119150000 +0800" stop="20261119160000 +0800" channel="CNN">
+    <title lang="zh">Anderson Cooper 360</title>
+    <desc lang="zh">安德森·庫珀不僅透過深入的報導與調查，更致力於讓掌權者負起責任;與他同行的嘉賓經常包括政治和法律分析師。</desc>
+  </programme>
+  <programme start="20261119160000 +0800" stop="20261119170000 +0800" channel="CNN">
+    <title lang="zh">CNN 艾比·菲利浦夜間新聞</title>
+    <desc lang="zh">艾比·菲利普在當天最重要的故事與議題上，帶領我們展開座談會。</desc>
+  </programme>
+  <programme start="20261119170000 +0800" stop="20261119180000 +0800" channel="CNN">
+    <title lang="zh">Anderson Cooper 360</title>
+    <desc lang="zh">安德森·庫珀不僅透過深入的報導與調查，更致力於讓掌權者負起責任;與他同行的嘉賓經常包括政治和法律分析師。</desc>
+  </programme>
+  <programme start="20261119180000 +0800" stop="20261119190000 +0800" channel="CNN">
+    <title lang="zh">CNN 頭條快車直播</title>
+    <desc lang="zh">布萊德·史密斯為您帶來最引人注目的頭條新聞與最值得關注的精彩報導。</desc>
+  </programme>
+  <programme start="20261119190000 +0800" stop="20261119200000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN早晨新聞</title>
+    <desc lang="zh">來自世界各地的故事，以及與奧迪·科尼什的對話。</desc>
+  </programme>
+  <programme start="20261119200000 +0800" stop="20261119210000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261119210000 +0800" stop="20261119220000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261119220000 +0800" stop="20261119230000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261119230000 +0800" stop="20261120000000 +0800" channel="CNN">
+    <title lang="zh">直播：戰情室</title>
+    <desc lang="zh">沃爾夫·布利澤和帕梅拉·布朗是新聞、政治以及來自世界各地的非凡報導的指揮中心。</desc>
   </programme>
   <programme start="20261115000000 +0800" stop="20261115010000 +0800" channel="Sky News">
     <title lang="zh">天空新聞</title>
