@@ -17,15 +17,15 @@
       "degraded_cache": false
     },
     "suxuang": {
-      "fetched": 1171,
+      "fetched": 1172,
       "degraded_cache": false
     }
   },
-  "generated_at": "2026-11-24 09:58:30 UTC",
-  "deduped": 1306,
-  "final": 1306,
+  "generated_at": "2026-11-24 22:29:58 UTC",
+  "deduped": 1307,
+  "final": 1307,
   "epg": {
     "channels": 135,
-    "programmes": 24881
+    "programmes": 25048
   }
 }
