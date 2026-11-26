@@ -4250,19 +4250,28 @@
   <programme start="20261126015900 +0800" stop="20261126022500 +0800" channel="CCTV2">
     <title lang="zh">精品财经纪录:大唐盛世千年文物</title>
   </programme>
-  <programme start="20261126022500 +0800" stop="20261126025000 +0800" channel="CCTV2">
+  <programme start="20261126022500 +0800" stop="20261126025100 +0800" channel="CCTV2">
     <title lang="zh">沃野千里(3)</title>
   </programme>
   <programme start="20261126025000 +0800" stop="20261126033300 +0800" channel="CCTV2">
     <title lang="zh">对话</title>
   </programme>
-  <programme start="20261126033300 +0800" stop="20261126043200 +0800" channel="CCTV2">
+  <programme start="20261126025100 +0800" stop="20261126033300 +0800" channel="CCTV2">
+    <title lang="zh">对话</title>
+  </programme>
+  <programme start="20261126033300 +0800" stop="20261126043300 +0800" channel="CCTV2">
     <title lang="zh">一槌定音</title>
   </programme>
   <programme start="20261126043200 +0800" stop="20261126050100 +0800" channel="CCTV2">
     <title lang="zh">回家吃饭</title>
   </programme>
+  <programme start="20261126043300 +0800" stop="20261126050200 +0800" channel="CCTV2">
+    <title lang="zh">回家吃饭</title>
+  </programme>
   <programme start="20261126050100 +0800" stop="20261126053100 +0800" channel="CCTV2">
+    <title lang="zh">消费新主张</title>
+  </programme>
+  <programme start="20261126050200 +0800" stop="20261126053100 +0800" channel="CCTV2">
     <title lang="zh">消费新主张</title>
   </programme>
   <programme start="20261126053100 +0800" stop="20261126055800 +0800" channel="CCTV2">
@@ -34884,7 +34893,7 @@
     <title lang="zh">旅游景区天气预报</title>
   </programme>
   <programme start="20261126000000 +0800" stop="20261126001400 +0800" channel="安徽卫视">
-    <title lang="zh">旅游景区天气预报</title>
+    <title lang="zh">纪录片:生死抉择-通道转兵（下）</title>
   </programme>
   <programme start="20261126001400 +0800" stop="20261126004500 +0800" channel="安徽卫视">
     <title lang="zh">纪录片</title>
@@ -80059,9 +80068,49 @@ ABC新聞備受好評的系列劇《20/20》已將自身視為廣播新聞領域
     <title lang="zh">拉斯維加斯：罪惡之城的故事</title>
     <desc lang="zh">這條街道上爆發著由迪士尼為名的新飯店、賭場和超級巨星，凸顯了在面對困難時，該片的演變與不斷重塑。</desc>
   </programme>
-  <programme start="20261127130000 +0800" stop="20261128000000 +0800" channel="CNN">
+  <programme start="20261127130000 +0800" stop="20261127140000 +0800" channel="CNN">
     <title lang="zh">直播：艾萊克斯·米切爾森故事時間</title>
     <desc lang="zh">艾歷克斯·麥可森以犀利的分析、嶄新的視角和幽默，探討屢屢屢屢屢屢屢矚目的新聞焦點。</desc>
+  </programme>
+  <programme start="20261127140000 +0800" stop="20261127150000 +0800" channel="CNN">
+    <title lang="zh">直播：艾萊克斯·米切爾森故事時間</title>
+    <desc lang="zh">艾歷克斯·麥可森以犀利的分析、嶄新的視角和幽默，探討屢屢屢屢屢屢屢矚目的新聞焦點。</desc>
+  </programme>
+  <programme start="20261127150000 +0800" stop="20261127160000 +0800" channel="CNN">
+    <title lang="zh">CNN新聞編輯室直播</title>
+    <desc lang="zh">來自世界各地的最新消息。</desc>
+  </programme>
+  <programme start="20261127160000 +0800" stop="20261127170000 +0800" channel="CNN">
+    <title lang="zh">CNN新聞編輯室直播</title>
+    <desc lang="zh">來自世界各地的最新消息。</desc>
+  </programme>
+  <programme start="20261127170000 +0800" stop="20261127180000 +0800" channel="CNN">
+    <title lang="zh">CNN新聞編輯室直播</title>
+    <desc lang="zh">來自世界各地的最新消息。</desc>
+  </programme>
+  <programme start="20261127180000 +0800" stop="20261127190000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN早晨新聞</title>
+    <desc lang="zh">來自世界各地的故事，以及與奧迪·科尼什的對話。</desc>
+  </programme>
+  <programme start="20261127190000 +0800" stop="20261127200000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN早晨新聞</title>
+    <desc lang="zh">來自世界各地的故事，以及與奧迪·科尼什的對話。</desc>
+  </programme>
+  <programme start="20261127200000 +0800" stop="20261127210000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261127210000 +0800" stop="20261127220000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261127220000 +0800" stop="20261127230000 +0800" channel="CNN">
+    <title lang="zh">直播：CNN新聞中心</title>
+    <desc lang="zh">來自全球的最新消息，由CNN沉浸式新聞中心約翰·伯曼、凱特·博爾杜安和莎拉·西德納一同直播。</desc>
+  </programme>
+  <programme start="20261127230000 +0800" stop="20261128000000 +0800" channel="CNN">
+    <title lang="zh">直播：戰情室</title>
+    <desc lang="zh">沃爾夫·布利澤和帕梅拉·布朗是新聞、政治以及來自世界各地的非凡報導的指揮中心。</desc>
   </programme>
   <programme start="20261123000000 +0800" stop="20261123010000 +0800" channel="Sky News">
     <title lang="zh">天空新聞</title>
