@@ -5,7 +5,7 @@
       "degraded_cache": false
     },
     "iptv-org-cn": {
-      "fetched": 156,
+      "fetched": 157,
       "degraded_cache": false
     },
     "yang-1989": {
@@ -21,11 +21,11 @@
       "degraded_cache": false
     }
   },
-  "generated_at": "2026-11-26 21:38:18 UTC",
-  "deduped": 1307,
-  "final": 1307,
+  "generated_at": "2026-11-27 08:41:23 UTC",
+  "deduped": 1308,
+  "final": 1308,
   "epg": {
     "channels": 135,
-    "programmes": 25360
+    "programmes": 25505
   }
 }
