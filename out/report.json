@@ -21,11 +21,11 @@
       "degraded_cache": false
     }
   },
-  "generated_at": "2026-11-27 21:22:15 UTC",
+  "generated_at": "2026-11-28 07:54:50 UTC",
   "deduped": 1308,
   "final": 1308,
   "epg": {
     "channels": 135,
-    "programmes": 25248
+    "programmes": 25263
   }
 }

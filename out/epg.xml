@@ -1046,7 +1046,7 @@
   <programme start="20261129213000 +0800" stop="20261129213500 +0800" channel="睛彩广场舞">
     <title lang="zh">频道宣传</title>
   </programme>
-  <programme start="20261129213500 +0800" stop="20261130000000 +0800" channel="睛彩广场舞">
+  <programme start="20261129213500 +0800" stop="20261130001500 +0800" channel="睛彩广场舞">
     <title lang="zh">英超赛场:2026/2027英超第12轮</title>
   </programme>
   <programme start="20261125000000 +0800" stop="20261125000100 +0800" channel="睛彩少年">
@@ -1592,7 +1592,7 @@
   <programme start="20261129225000 +0800" stop="20261129230000 +0800" channel="睛彩少年">
     <title lang="zh">频道宣传</title>
   </programme>
-  <programme start="20261129230000 +0800" stop="20261130000100 +0800" channel="睛彩少年">
+  <programme start="20261129230000 +0800" stop="20261130014000 +0800" channel="睛彩少年">
     <title lang="zh">足球世界:2026/2027西甲第14轮</title>
   </programme>
   <programme start="20261124224000 +0800" stop="20261125002000 +0800" channel="睛彩竞技">
@@ -2120,7 +2120,7 @@
   <programme start="20261129231500 +0800" stop="20261129233000 +0800" channel="睛彩竞技">
     <title lang="zh">频道宣传</title>
   </programme>
-  <programme start="20261129233000 +0800" stop="20261130000000 +0800" channel="睛彩竞技">
+  <programme start="20261129233000 +0800" stop="20261130024000 +0800" channel="睛彩竞技">
     <title lang="zh">英超赛场:2026/2027英超第12轮</title>
   </programme>
   <programme start="20261125000000 +0800" stop="20261125001000 +0800" channel="睛彩篮球">
@@ -2552,7 +2552,7 @@
   <programme start="20261129214000 +0800" stop="20261129214500 +0800" channel="睛彩篮球">
     <title lang="zh">频道宣传</title>
   </programme>
-  <programme start="20261129214500 +0800" stop="20261130001000 +0800" channel="睛彩篮球">
+  <programme start="20261129214500 +0800" stop="20261130000000 +0800" channel="睛彩篮球">
     <title lang="zh">小众项目</title>
   </programme>
   <programme start="20261124223000 +0800" stop="20261125003000 +0800" channel="咪咕体育">
@@ -4334,19 +4334,25 @@
   <programme start="20261128010000 +0800" stop="20261128014300 +0800" channel="CCTV2">
     <title lang="zh">对话</title>
   </programme>
-  <programme start="20261128014300 +0800" stop="20261128015500 +0800" channel="CCTV2">
+  <programme start="20261128014300 +0800" stop="20261128015600 +0800" channel="CCTV2">
     <title lang="zh">雕琢岁月(2)</title>
   </programme>
   <programme start="20261128015500 +0800" stop="20261128021500 +0800" channel="CCTV2">
     <title lang="zh">乌梁素海(1)</title>
   </programme>
+  <programme start="20261128015600 +0800" stop="20261128021500 +0800" channel="CCTV2">
+    <title lang="zh">乌梁素海(1)</title>
+  </programme>
   <programme start="20261128021500 +0800" stop="20261128024400 +0800" channel="CCTV2">
     <title lang="zh">精品财经纪录:乌梁素海(3)</title>
   </programme>
-  <programme start="20261128024400 +0800" stop="20261128031000 +0800" channel="CCTV2">
+  <programme start="20261128024400 +0800" stop="20261128031100 +0800" channel="CCTV2">
     <title lang="zh">精品财经纪录:大唐盛世千年文物</title>
   </programme>
   <programme start="20261128031000 +0800" stop="20261128035000 +0800" channel="CCTV2">
+    <title lang="zh">精品财经纪录</title>
+  </programme>
+  <programme start="20261128031100 +0800" stop="20261128035000 +0800" channel="CCTV2">
     <title lang="zh">精品财经纪录</title>
   </programme>
   <programme start="20261128035000 +0800" stop="20261128043400 +0800" channel="CCTV2">
@@ -8237,19 +8243,28 @@
   <programme start="20261127232700 +0800" stop="20261127235959 +0800" channel="CCTV9">
     <title lang="zh">寰宇视野:神秘的水域世界(4)</title>
   </programme>
-  <programme start="20261128000000 +0800" stop="20261128003100 +0800" channel="CCTV9">
+  <programme start="20261128000000 +0800" stop="20261128003200 +0800" channel="CCTV9">
     <title lang="zh">寰宇视野:神秘的水域世界(4)</title>
   </programme>
   <programme start="20261128003100 +0800" stop="20261128012700 +0800" channel="CCTV9">
     <title lang="zh">全景自然(331):完美星球(1)</title>
   </programme>
+  <programme start="20261128003200 +0800" stop="20261128012800 +0800" channel="CCTV9">
+    <title lang="zh">全景自然(331):完美星球(1)</title>
+  </programme>
   <programme start="20261128012700 +0800" stop="20261128022300 +0800" channel="CCTV9">
     <title lang="zh">魅力万象(331):完美星球(2)</title>
   </programme>
-  <programme start="20261128022300 +0800" stop="20261128025300 +0800" channel="CCTV9">
+  <programme start="20261128012800 +0800" stop="20261128022300 +0800" channel="CCTV9">
+    <title lang="zh">魅力万象(331):完美星球(2)</title>
+  </programme>
+  <programme start="20261128022300 +0800" stop="20261128025500 +0800" channel="CCTV9">
     <title lang="zh">活力·源(331):莽昆仑(5)</title>
   </programme>
   <programme start="20261128025300 +0800" stop="20261128035400 +0800" channel="CCTV9">
+    <title lang="zh">特别呈现(331):齐长城(2)</title>
+  </programme>
+  <programme start="20261128025500 +0800" stop="20261128035400 +0800" channel="CCTV9">
     <title lang="zh">特别呈现(331):齐长城(2)</title>
   </programme>
   <programme start="20261128035400 +0800" stop="20261128041100 +0800" channel="CCTV9">
@@ -41627,7 +41642,7 @@
   <programme start="20261127234500 +0800" stop="20261127235959 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
   </programme>
-  <programme start="20261128000000 +0800" stop="20261128000500 +0800" channel="山西卫视">
+  <programme start="20261128000000 +0800" stop="20261128011200 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
   </programme>
   <programme start="20261128000500 +0800" stop="20261128004800 +0800" channel="山西卫视">
@@ -41637,7 +41652,7 @@
     <title lang="zh">生活服务</title>
   </programme>
   <programme start="20261128011200 +0800" stop="20261128015500 +0800" channel="山西卫视">
-    <title lang="zh">电视剧:神探狄仁杰第一部30</title>
+    <title lang="zh">电视剧:神探狄仁杰第二部2</title>
   </programme>
   <programme start="20261128015500 +0800" stop="20261128021900 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
@@ -41754,13 +41769,13 @@
     <title lang="zh">歌从黄河来·唱游山西第二季</title>
   </programme>
   <programme start="20261128222400 +0800" stop="20261128224400 +0800" channel="山西卫视">
-    <title lang="zh">电视剧:神探狄仁杰第一部31</title>
+    <title lang="zh">电视剧:神探狄仁杰第二部3</title>
   </programme>
   <programme start="20261128224400 +0800" stop="20261128231300 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
   </programme>
   <programme start="20261128231300 +0800" stop="20261128233700 +0800" channel="山西卫视">
-    <title lang="zh">电视剧:神探狄仁杰第一部32</title>
+    <title lang="zh">电视剧:神探狄仁杰第二部4</title>
   </programme>
   <programme start="20261128233700 +0800" stop="20261128235959 +0800" channel="山西卫视">
     <title lang="zh">生活服务</title>
@@ -79730,9 +79745,49 @@ Dream Home 將帶領六對澳洲人將翻新風格提升至新高，每戶人一
     <title lang="zh">毒鵝膏：蘑菇謀殺案</title>
     <desc lang="zh">在澳洲維多利亞州鄉村參加安靜的家庭午餐後幾天內，三人已死亡，一人在加護病房中掙扎搶戰，第五人艾琳·帕特森(廚師兼主持人)成為謀殺案的主要嫌疑人。</desc>
   </programme>
-  <programme start="20261129130000 +0800" stop="20261130000000 +0800" channel="CNN">
+  <programme start="20261129130000 +0800" stop="20261129140000 +0800" channel="CNN">
     <title lang="zh">毒鵝膏：蘑菇謀殺案</title>
     <desc lang="zh">經過將近兩年的審判後，艾琳·帕特森的審判接掌了維多利亞州莫威爾這個前煤礦小鎮。陪審團隱瞞了大量證據，兩篇故事不斷展開——陪審團知道什麼，以及他們隱瞞了什麼。</desc>
+  </programme>
+  <programme start="20261129140000 +0800" stop="20261129150000 +0800" channel="CNN">
+    <title lang="zh">毒鵝膏：蘑菇謀殺案</title>
+    <desc lang="zh">艾琳·帕特森出庭作證，並對檢方案件的每個細節都帶來質疑。但隨著交叉詰問的深入探討，她提出了新的主張、細節和欺騙——而這些微小的謊言最終證明了她的不為之。</desc>
+  </programme>
+  <programme start="20261129150000 +0800" stop="20261129160000 +0800" channel="CNN">
+    <title lang="zh">真實故事</title>
+    <desc lang="zh">1982年，芝加哥地區七名居民突然罹患致命疾病;雖然起初卻一無所失，但醫生們很快發現存在一種陰險的關聯，引發了長達數十年的調查。</desc>
+  </programme>
+  <programme start="20261129160000 +0800" stop="20261129170000 +0800" channel="CNN">
+    <title lang="zh">真實故事</title>
+    <desc lang="zh">1998年，母子二人組桑特與肯尼·金斯成為紐約市一名失蹤社交名媛高調案件的嫌疑人;調查揭露了從巴哈馬到洛杉磯的暴力與詐騙事件。</desc>
+  </programme>
+  <programme start="20261129170000 +0800" stop="20261129180000 +0800" channel="CNN">
+    <title lang="zh">CNN新聞編輯室直播</title>
+    <desc lang="zh">來自世界各地的最新消息。</desc>
+  </programme>
+  <programme start="20261129180000 +0800" stop="20261129190000 +0800" channel="CNN">
+    <title lang="zh">CNN新聞編輯室直播</title>
+    <desc lang="zh">來自世界各地的最新消息。</desc>
+  </programme>
+  <programme start="20261129190000 +0800" stop="20261129200000 +0800" channel="CNN">
+    <title lang="zh">CNN今晨週末版</title>
+    <desc lang="zh">來自世界各地的故事，以及與維克多·布萊克威爾的令人耳目一新的對話。</desc>
+  </programme>
+  <programme start="20261129200000 +0800" stop="20261129210000 +0800" channel="CNN">
+    <title lang="zh">CNN今晨週末版</title>
+    <desc lang="zh">來自世界各地的故事，以及與維克多·布萊克威爾的令人耳目一新的對話。</desc>
+  </programme>
+  <programme start="20261129210000 +0800" stop="20261129220000 +0800" channel="CNN">
+    <title lang="zh">政治內幕：馬努·拉朱專訪</title>
+    <desc lang="zh">馬努·拉朱在本週最重要的政治故事中，深入探討了這一議題，並訪談了眾多分析人士與新聞製作人。</desc>
+  </programme>
+  <programme start="20261129220000 +0800" stop="20261129230000 +0800" channel="CNN">
+    <title lang="zh">國情咨文：傑克·塔珀與達娜·巴什專訪</title>
+    <desc lang="zh">傑克·塔珀與達娜·巴什集結了主要新聞記者、分析師和專家，共同應對全球舞台上迫切的國內議題與外交議題。</desc>
+  </programme>
+  <programme start="20261129230000 +0800" stop="20261130000000 +0800" channel="CNN">
+    <title lang="zh">費利德·扎卡利亞的環球視野</title>
+    <desc lang="zh">向世界領袖、藝術家、科學家、企業領袖、全球事務分析師及其他文化觀察家提供見解、分析與訪談。</desc>
   </programme>
   <programme start="20261125000000 +0800" stop="20261125010000 +0800" channel="Sky News">
     <title lang="zh">天空新聞</title>
